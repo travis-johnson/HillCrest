@@ -17,8 +17,32 @@ a {
     color: inherit;
 }
 
+h2 {
+    font-size: 1.2em;
+    color: #a90a0b;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+p {
+    font-size: 1em;
+}
+
+ul {
+    padding-left: 1em;
+}
+
+li {
+    font-size: .85em;
+    font-weight: 500;
+}
+
 .container {
     max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .container:after {
@@ -46,7 +70,7 @@ div[class*="col-"] {
 }
 
 .inner {
-    padding: 1em 3.5em;
+    padding: 1em;
 }
 
 .footer-inner {
@@ -55,8 +79,7 @@ div[class*="col-"] {
 }
 
 .footer-logo {
-    float: right;
-    clear: both;
+    visibility: hidden;
 }
 
 footer h3,
@@ -93,16 +116,14 @@ footer p {
     font-size: 1.2em;
     font-weight: 500;
     margin: 0;
+    color: black;
 }
 
-.banner img {
-    visibility: hidden;
+.footer-logo {
+    display: none;
 }
 
 .banner form {
-    position: absolute;
-    top: 3em;
-    right: 4em;
     display: table;
 }
 
@@ -150,13 +171,44 @@ footer p {
     vertical-align: middle;
 }
 
-.hpad-sm {
-    padding: 0 2em;
+.shortcuts {
+    line-height: 2;
+}
+
+.events li {
+    list-style: none;
+    line-height: 2.3;
+}
+
+.events p {
+    margin-left: 1em;
+}
+
+.hpad_sm {
+    padding: 0 1em;
 }
 
 @media(min-width:320px) {
     div[class*="col-"] {
         max-width: 100%;
+    }
+    .inner {
+        padding: 1em;
+    }
+}
+
+@media(min-width:640px) {
+    .banner img {
+        visibility: visible;
+        float: left;
+        clear: both;
+        margin: 0 1em 1.7em 5em;
+        width: 8%;
+    }
+    .footer-logo {
+        display: block;
+        float: right;
+        clear: both;
     }
 }
 
@@ -180,15 +232,22 @@ footer p {
     .col-1-5 {
         width: 20%;
     }
-    .banner img {
-        visibility: visible;
-        float: left;
-        clear: both;
-        margin: 0 1em 1.7em 5em;
-        width: 8%;
+    .inner {
+        padding: 1em 5.5em;
     }
     div[class*="col-"] {
         display: table-cell;
         vertical-align: top;
+    }
+    .banner form {
+        position: absolute;
+        top: 3em;
+        right: 4em;
+    }
+    .social-icons {
+        padding-left: 8em;
+    }
+    .footer-logo {
+        margin: 0 -4em;
     }
 }
