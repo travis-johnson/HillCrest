@@ -17,22 +17,27 @@
                 <h1>HILLCREST</h1>
                 <h2>HIGH SCHOOL</h2>
 
-                <form id="search">
+                <form class="search-form">
                     <input type="text" placeholder="SEARCH OUR SITE">
                     <button type="submit">&#x1F50D;</button>
                 </form>
 
             </div>
             <div class="menu-bar">
-                <ul class="menu-options">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Our School</a></li>
-                    <li><a href="#">Library</a></li>
-                    <li><a href="#">Athletics</a></li>
-                    <li><a href="#">Counseling</a></li>
-                    <li><a href="#">Contact us</a></li>
-                    <li><a href="#">Calendar</a></li>
-                </ul>
+                <button id="menu-button">MENU</button>
+                <div class="menu-options">
+                    <a href="#">Home</a>
+                    <a href="#">Our School</a>
+                    <a href="#">Library</a>
+                    <a href="#">Athletics</a>
+                    <a href="#">Counseling</a>
+                    <a href="#">Contact us</a>
+                    <a href="#">Calendar</a>
+                    <form class="search-form visible">
+                        <input type="text" placeholder="SEARCH OUR SITE">
+                        <button type="submit">&#x1F50D;</button>
+                    </form>
+                </div>
             </div>
         </div>
     </header>
@@ -113,7 +118,7 @@
 
             </div>
             <div class="col-1-2 content social-icons">
-                <h3 class="uppercase">Stay Connected with Dallas ISD</h3>
+                <h3 class="uppercase hpad_sm">Stay Connected with Dallas ISD</h3>
 
                 <a href="#"><img src="img/facebook.png" alt="Facebook Logo"></a>
 
@@ -134,7 +139,7 @@
 
 
 
-
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="script.js"></script>
 </body>
 
