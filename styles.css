@@ -66,11 +66,16 @@
         .outer {
             background-color: #333;
             border-top: 1px solid #fff;
-            border-bottom: 3px solid #7d7d7d;
+            border-bottom: 1.5px solid #fff;
         }
         
         .inner {
             padding: 1em;
+        }
+        
+        .bar {
+            padding: 1em;
+            background: #7d7d7d;
         }
         
         .footer-logo {
@@ -239,6 +244,12 @@
             .menu-options {
                 max-width: 77%;
             }
+            .footer-inner {
+                border-top: 1.5px solid #fff;
+            }
+            .social-icons {
+                border-top: 3px solid #7d7d7d;
+            }
         }
         
         @media(min-width:640px) {
@@ -324,8 +335,15 @@
             }
             .footer-inner {
                 padding: 1em 3.5em;
+                border-top: none;
             }
             .social-icons a>img {
                 width: 11%;
+            }
+            .social-icons {
+                border: none;
+            }
+            .bar {
+                display: none;
             }
         }
