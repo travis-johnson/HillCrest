@@ -185,6 +185,8 @@
         
         .sub-drop {
             display: inherit;
+            font-size: .95em;
+            margin: 0 1em;
         }
         
         .dropdown-menu {
@@ -262,7 +264,7 @@
                 display: block;
                 float: left;
                 clear: both;
-                margin: 0 1em 0 5em;
+                margin: 1em 1em 0.2em 5em;
                 width: 11%;
             }
             .footer-logo {
@@ -275,6 +277,21 @@
             }
             .social-icons a>img {
                 width: 6%;
+            }
+            .photo-box {
+                z-index: 0;
+                position: relative;
+            }
+            .photo-box .photo-capt {
+                max-width: 14em;
+                padding: .5em;
+                z-index: 1;
+                background: rgba(0, 0, 0, .4);
+                color: #fff;
+                border: 1px solid #fff;
+                position: absolute;
+                top: 60%;
+                left: 5%
             }
         }
         
@@ -321,6 +338,9 @@
                 margin: .75em;
             }
             .menu-bar .search-form {
+                display: none;
+            }
+            .sub-drop {
                 display: none;
             }
             .banner img {
