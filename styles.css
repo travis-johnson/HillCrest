@@ -317,7 +317,7 @@
             }
             .photo-box .photo-capt {
                 display: block;
-                max-width: 14em;
+                max-width: 16em;
                 padding: .5em;
                 z-index: 1;
                 background: rgba(0, 0, 0, .8);
