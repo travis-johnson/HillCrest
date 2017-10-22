@@ -224,14 +224,17 @@
             vertical-align: middle;
         }
         
-        .shortcuts {
-            line-height: 2;
+        .shortcuts li {
+            line-height: 1.5;
         }
         
         .events {
             list-style: none;
-            line-height: 3;
             padding-left: 0;
+        }
+        
+        .events li {
+            line-height: 1;
         }
         
         .events p {
@@ -239,15 +242,17 @@
         }
         
         .list-date {
-            float: left;
+            list-style: none;
             text-align: center;
             margin-right: 1em;
+            line-height: 3.4;
         }
         
         .list-date h2 {
             margin: 0;
             line-height: 0;
             font-size: 1.8em;
+            margin-bottom: .5em;
         }
         
         .hpad_sm {
@@ -269,6 +274,15 @@
             }
             .social-icons {
                 border-top: 3px solid #7d7d7d;
+            }
+            .list-date {
+                float: left;
+            }
+            .photo-capt {
+                display: none;
+            }
+            .events li {
+                margin-top: 3.3em;
             }
         }
         
@@ -296,6 +310,7 @@
                 position: relative;
             }
             .photo-box .photo-capt {
+                display: block;
                 max-width: 14em;
                 padding: .5em;
                 z-index: 1;
@@ -383,5 +398,11 @@
             }
             .bar {
                 display: none;
+            }
+            .list-date {
+                float: none;
+            }
+            .events li {
+                margin-top: 3.1em;
             }
         }
