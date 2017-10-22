@@ -228,13 +228,26 @@
             line-height: 2;
         }
         
-        .events li {
+        .events {
             list-style: none;
-            line-height: 2.3;
+            line-height: 3;
+            padding-left: 0;
         }
         
         .events p {
             margin-left: 1em;
+        }
+        
+        .list-date {
+            float: left;
+            text-align: center;
+            margin-right: 1em;
+        }
+        
+        .list-date h2 {
+            margin: 0;
+            line-height: 0;
+            font-size: 1.8em;
         }
         
         .hpad_sm {
