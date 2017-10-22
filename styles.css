@@ -260,6 +260,11 @@
             padding: 0 1em;
         }
         
+        .marg_t_md {
+            margin-top: 2em;
+            margin-bottom: 0;
+        }
+        
         @media(min-width:320px) {
             div[class*="col-"] {
                 max-width: 100%;
