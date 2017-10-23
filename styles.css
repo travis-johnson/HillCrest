@@ -438,7 +438,7 @@
             .events li {
                 margin-top: 3.1em;
             }
-            .photobox {
+            .bordered.photo-box {
                 border-bottom: none;
             }
             .sub-drop-dt {
