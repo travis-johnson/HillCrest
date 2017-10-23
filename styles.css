@@ -218,6 +218,10 @@
             vertical-align: middle;
         }
         
+        .photo-capt {
+            display: none;
+        }
+        
         .shortcuts li {
             line-height: 1.5;
             margin-left: 1em;
@@ -281,9 +285,6 @@
             }
             .list-date {
                 float: left;
-            }
-            .photo-capt {
-                display: none;
             }
             .events li {
                 margin-top: 3.3em;
