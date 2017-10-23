@@ -266,6 +266,7 @@
             }
             .menu-options {
                 max-width: 77%;
+                z-index: 2;
             }
             .sub-drop {
                 display: inherit;
