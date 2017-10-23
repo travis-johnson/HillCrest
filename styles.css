@@ -113,7 +113,6 @@
         }
         
         .bordered {
-            border: 5px solid black;
             background: white;
         }
         
@@ -273,6 +272,9 @@
                 max-width: 77%;
                 z-index: 2;
             }
+            .photobox {
+                border-bottom: 5px solid #333;
+            }
             .sub-drop {
                 display: inherit;
                 font-size: .95em;
@@ -376,6 +378,9 @@
             .inner {
                 padding: 1em 5.5em;
             }
+            .bordered {
+                border: 5px solid black;
+            }
             div[class*="col-"] {
                 display: table-cell;
                 vertical-align: top;
@@ -432,6 +437,9 @@
             }
             .events li {
                 margin-top: 3.1em;
+            }
+            .photobox {
+                border-bottom: none;
             }
             .sub-drop-dt {
                 display: grid;
