@@ -272,8 +272,8 @@
                 max-width: 77%;
                 z-index: 2;
             }
-            .photobox {
-                border-bottom: 5px solid #333;
+            .bordered.photo-box {
+                border-bottom: 15px solid #333;
             }
             .sub-drop {
                 display: inherit;
