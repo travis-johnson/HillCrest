@@ -196,7 +196,6 @@
             position: absolute;
             left: 1em;
             background: #990000;
-            padding: 1em;
             line-height: 2.5;
             box-shadow: 0px 5px 12px 1px #565353
         }
@@ -209,7 +208,7 @@
         .menu-bars:hover,
         .menu-options a:hover {
             background: #7a0000;
-            height: 100%;
+            padding: .8em 1em;
         }
         
         .photo-box img {
@@ -349,6 +348,10 @@
                 z-index: 2;
                 background: #990000;
                 margin-top: 2em;
+                box-shadow: 0px 10px 16px -3px #565353;
+            }
+            .menu-options .sub-drop-dt a {
+                padding: 1em;
             }
         }
         
@@ -390,12 +393,11 @@
                 margin: 0 0 0 4em;
                 max-width: 100%;
                 position: relative;
-                padding: 0;
                 line-height: 1;
                 box-shadow: none;
             }
             .menu-options a {
-                margin: .75em;
+                padding: 0 1em;
             }
             .menu-bar .search-form {
                 display: none;
