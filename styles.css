@@ -248,10 +248,10 @@
         }
         
         .list-date h2 {
-            margin: 0;
             line-height: 0;
             font-size: 1.8em;
-            margin-bottom: .5em;
+            margin-bottom: .55em;
+            margin-top: 0;
         }
         
         .hpad_sm {
