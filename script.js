@@ -12,13 +12,19 @@
 
 
             } else if (width >= 1024) {
-                $('.menu-options').show();
+
+                $('.sub-btn').click(function() {
+                    $(this).next('.sub-menu-opt').toggleClass('sub-drop-dt');
+                });
+
             }
+
+            $('sub-btn').click(function(e) {
+                e.preventDefault();
+            })
         });
 
-        // $('.sub-btn').click(function(e) {
-        //     e.stopPropagation();
-        // })
+
 
 
         // $('.sub-btn').click(function(){

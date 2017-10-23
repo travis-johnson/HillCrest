@@ -183,12 +183,6 @@
             display: none;
         }
         
-        .sub-drop {
-            display: inherit;
-            font-size: .95em;
-            margin: 0 1em;
-        }
-        
         .dropdown-menu {
             position: relative;
             display: inline-block;
@@ -273,6 +267,11 @@
             .menu-options {
                 max-width: 77%;
             }
+            .sub-drop {
+                display: inherit;
+                font-size: .95em;
+                margin: 0 1em;
+            }
             .footer-inner {
                 border-top: 1.5px solid #fff;
             }
@@ -343,6 +342,12 @@
                 background: transparent;
                 border: 2px solid #fff;
             }
+            .sub-drop-dt {
+                display: inline-grid;
+                position: absolute;
+                z-index: 2;
+                background: #990000;
+            }
         }
         
         @media(min-width:1024px) {
@@ -391,9 +396,6 @@
                 margin: .75em;
             }
             .menu-bar .search-form {
-                display: none;
-            }
-            .sub-drop {
                 display: none;
             }
             .banner img {
