@@ -216,6 +216,7 @@
             width: 100%;
             height: auto;
             vertical-align: middle;
+            border: 1px solid white;
         }
         
         .photo-capt {
@@ -325,12 +326,15 @@
                 border: 1px solid #fff;
                 position: absolute;
                 top: 56%;
-                left: 5%
+                left: 5%;
             }
             .photo-box .carousel {
                 background: #990000;
                 text-align: center;
                 padding: .3em;
+                border-bottom: 1px solid white;
+                border-left: 1px solid white;
+                border-right: 1px solid white;
             }
             .dot {
                 height: 12px;
