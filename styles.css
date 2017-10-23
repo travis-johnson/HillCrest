@@ -31,7 +31,7 @@
         }
         
         ul {
-            padding-left: 1em;
+            padding-left: 0;
         }
         
         li {
@@ -137,7 +137,7 @@
         }
         
         .menu-options .search-form {
-            display: table;
+            display: inline-flex;
         }
         
         .search-form>input {
@@ -226,12 +226,11 @@
         
         .shortcuts li {
             line-height: 1.5;
-            margin-left: 2em;
+            margin-left: 1em;
         }
         
         .events {
             list-style: none;
-            padding-left: 0;
         }
         
         .events li {
@@ -260,9 +259,8 @@
             padding: 0 1em;
         }
         
-        .marg_t_md {
-            margin-top: 2em;
-            margin-bottom: 0;
+        .nomarg {
+            margin: 0;
         }
         
         @media(min-width:320px) {
@@ -304,6 +302,7 @@
                 display: block;
                 float: right;
                 clear: both;
+                visibility: visible;
             }
             .menu-bar {
                 margin-top: 2em;
@@ -324,8 +323,25 @@
                 color: #fff;
                 border: 1px solid #fff;
                 position: absolute;
-                top: 60%;
+                top: 56%;
                 left: 5%
+            }
+            .photo-box .carousel {
+                background: #990000;
+                text-align: center;
+                padding: .3em;
+            }
+            .dot {
+                height: 12px;
+                width: 12px;
+                background: #fff;
+                border-radius: 10px;
+                display: inline-block;
+                margin: 0 .5em;
+            }
+            .dot.active {
+                background: transparent;
+                border: 2px solid #fff;
             }
         }
         
@@ -347,6 +363,9 @@
                 width: 75%;
             }
             .col-1-5 {
+                width: 20%;
+            }
+            .col-4-5 {
                 width: 20%;
             }
             .inner {
@@ -384,7 +403,7 @@
                 float: right;
                 margin-top: -2em;
                 margin-right: 6em;
-                display: table;
+                display: inline-flex;
             }
             .social-icons {
                 padding-left: 8em;
@@ -404,9 +423,6 @@
             }
             .bar {
                 display: none;
-            }
-            .list-date {
-                float: none;
             }
             .events li {
                 margin-top: 3.1em;
